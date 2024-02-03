@@ -1,0 +1,14 @@
+h1 {
+    color:brown;
+    background-color: yellow;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    width: 50%;
+    border: solid;
+    text-align: end;
+}

@@ -1,0 +1,122 @@
+* {
+    font-family: "Courier New";
+}
+
+h3{
+    color: purple;
+}
+
+h1{
+    color: #b92b27 ;
+}
+
+#login {
+    background-color: white;
+}
+
+#singup {
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote{
+    background-color: green;
+    color: whitesmoke;
+}
+
+/* Descendant Selector (Multiple Level)*/
+p a{
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a {
+    color: rgb(17, 0, 255);
+}
+
+/* Adjacent Sibling Combinator */
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: blue;
+}
+
+/* Child Combinator (One level below only) */
+div > input {
+    background-color: darksalmon;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    color: red;
+}
+
+input[type="password"] {
+    color: green;
+}
+
+input[type]{
+    color: ghostwhite;
+}
+
+#myid {
+    color: green;
+}
+
+/* Pseudo Class */
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: overline;
+}
+
+/* Active (Clicking) */
+button:active {
+    background-color: pink;
+}
+
+p:active{
+    font-weight: bold;
+    color:green
+}
+
+/* Checked */
+input[type=radio]:checked + label {
+    font-weight: bold;
+    color: red;
+}
+
+/* nth-of-type */
+div:nth-of-type(2n) {
+    background-color: pink;
+}
+
+/* Pseudo Element */
+
+/* First Letter */
+h1::first-letter{
+    color: green;
+}
+
+p::first-line{
+    color: purple;
+}
+
+p::selection{
+    background-color: rgb(115, 180, 115);
+}
+
+/* Cascading */ 
+h3 {
+    background-color: blue;
+}
+h3 {
+    background-color: yellow;
+}
