@@ -30,5 +30,3 @@ let w = 10;
 let e = 5;
 e = w;
 console.log(e); //10
-
-
