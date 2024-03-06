@@ -30,3 +30,6 @@ let w = 10;
 let e = 5;
 e = w;
 console.log(e); //10
+
+let age = 16;
+console.log(age < 18); //false
