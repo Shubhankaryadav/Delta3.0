@@ -62,3 +62,77 @@ let firstname = "shubhankar";
 if(firstname == "shubhankar") {
     console.log(`Welcome ${firstname}`)
 }
+
+//Pratice Qs
+console.log("Traffic Light")
+let light = "green";
+if (light == "red") {
+    console.log("STOP! ")
+}
+
+if (light == "yellow") {
+    console.log("SLOW DOWN")
+}
+
+if (light == "green") {
+    console.log("GO")
+}
+
+//else-if statement
+let year = 14;
+if (year >= 18) {
+    console.log("you can vote")
+} else if (year <= 18) {
+    console.log ("you cannot vote")
+} else if (year < 18) {
+    console.log ("you cannot vote")
+}
+
+let marks = 20;
+if(marks >= 80) {
+    console.log("A+");
+} else if(marks >= 60) {
+    console.log("A")
+} else if (marks >= 33) {
+    console.log("B")
+} else if (marks < 33) {
+    console.log("F");
+}
+
+
+//else statement
+if (age >= 18) {
+    console.log("you can vote")
+} else {
+    console.log("toy can't vote")
+}
+
+//pratice Qs
+let size = "L";
+if (size === "XL") {
+    console.log("if size is 'XL', price is Rs. 250")
+}
+else if (size === "L") {
+    console.log("if size is 'L', price is Rs. 200")
+}
+else if (size === "M") {
+    console.log("if size is 'M', price is Rs. 100")
+}
+else {
+    console.log("if size is 'S', price is Rs. 50")
+}
+
+//nested if-else  
+
+let mark= 88;
+
+if (mark >= 33) {
+    console.group("Pass");
+    if (marks >= 80) {
+        console.log("Grade : O");
+    } else {
+        console.log("Grade : A");
+    }
+} else {
+    console.log("Better luck next time!");
+}
